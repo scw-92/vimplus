@@ -35,6 +35,10 @@ An automatic configuration program for vim
     git clone https://github.com/chxuan/vimplus.git
     cd ./vimplus
     sudo ./install.sh
+    
+    注意：
+    1. install.sh文件会重新编译vim，这对16.04版本的系统不需要，在可以将编译vim部分省略掉即可
+    2. 脚本中缺少对目录是否存在的检查，我们可以在先删除 .vim目录。
     ```
 
 ### Centos
